@@ -1,0 +1,23 @@
+.navbar-container {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  padding: 2rem;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    .navbar-links {
+      a {
+        padding: 1rem;
+        font-size: 1.2rem;
+        &:hover {
+          color: blueviolet;
+        }
+      }
+    }
+    .navbar-icon {
+      display: none;
+    }
+  }
+}
