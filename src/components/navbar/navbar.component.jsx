@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navbar">
           <div className="navbar-logo">Logo</div>
           <div className="navbar-links">
-            <Link to={"/"}>Home</Link>
+            <Link to={"/home"}>Home</Link>
             <Link to={"/shop"}>Shop</Link>
             <Link to={"/about"}>About</Link>
             <Link to={"/sign"}>Sign Up</Link>

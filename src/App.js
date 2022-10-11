@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Navbar />}>
-        <Route path="/" index element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/sign" element={<Sign />} />
       </Route>
     </Routes>
